@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6YB-ja-OHB">
+                                <rect key="frame" x="20.5" y="266.5" width="373" height="373"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attendance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9Pr-6D-svT">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="186.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="boy-Dt-C4u">
+                                        <rect key="frame" x="74.5" y="186.5" width="224" height="186.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="boy-Dt-C4u" firstAttribute="centerX" secondItem="6YB-ja-OHB" secondAttribute="centerX" id="2Ln-1e-jkn"/>
+                                    <constraint firstItem="9Pr-6D-svT" firstAttribute="height" secondItem="6YB-ja-OHB" secondAttribute="height" multiplier="0.5" id="8LO-EZ-EOk"/>
+                                    <constraint firstItem="9Pr-6D-svT" firstAttribute="centerX" secondItem="6YB-ja-OHB" secondAttribute="centerX" id="9rl-DG-8Qq"/>
+                                    <constraint firstItem="9Pr-6D-svT" firstAttribute="width" secondItem="6YB-ja-OHB" secondAttribute="width" id="OxW-oR-Obn"/>
+                                    <constraint firstItem="9Pr-6D-svT" firstAttribute="centerY" secondItem="6YB-ja-OHB" secondAttribute="centerY" multiplier="0.5" id="V3S-AN-UuM"/>
+                                    <constraint firstItem="boy-Dt-C4u" firstAttribute="centerY" secondItem="6YB-ja-OHB" secondAttribute="centerY" multiplier="1.5" id="Ye8-dY-OSh"/>
+                                    <constraint firstItem="boy-Dt-C4u" firstAttribute="height" secondItem="9Pr-6D-svT" secondAttribute="height" id="gju-de-Peh"/>
+                                    <constraint firstAttribute="width" secondItem="6YB-ja-OHB" secondAttribute="height" multiplier="1:1" id="sRU-Rv-98I"/>
+                                    <constraint firstItem="boy-Dt-C4u" firstAttribute="width" secondItem="9Pr-6D-svT" secondAttribute="width" multiplier="0.6" id="xKx-FG-bBz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42501719539651878" green="0.87883751746395944" blue="0.71424318266955533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6YB-ja-OHB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hge-n2-RG3"/>
+                            <constraint firstItem="6YB-ja-OHB" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="uoh-HI-fEt"/>
+                            <constraint firstItem="6YB-ja-OHB" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="wXX-Im-FuV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
